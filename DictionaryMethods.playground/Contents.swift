@@ -35,7 +35,7 @@ let fastAndFuriousFilms = [
 var movies = [
     "Toy Story": toyStoryFilms,
     "Star Wars": starWarsFilms,
-    "The Fast and the Furious": fastAndFuriousFilms
+//    "The Fast and the Furious": fastAndFuriousFilms
 ]
 
 let godfatherFilms = [
@@ -65,7 +65,7 @@ if let godfatherMovies = movies["The Godfather"] {
 
 
 // MODIFYING VALUES
-
+// You have to make an optional instance of the key:value and then append it and then assign it back to the original dictionary subscripting the movie. Make it a var so you can mutate it
 if var films = movies["The Fast and the Furious"] {
     films.append("Faster! 9")
     films.append("THE FASTEST 10")
